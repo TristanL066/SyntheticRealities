@@ -5203,6 +5203,8 @@ GameObject:
   - component: {fileID: 1121889150}
   - component: {fileID: 1121889149}
   - component: {fileID: 1121889148}
+  - component: {fileID: 1121889153}
+  - component: {fileID: 1121889152}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5284,6 +5286,133 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1121889152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121889147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8873035f82aaa40a525ba5d029f96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SentienceLab.ApplyForceAtCursor
+  ApplyPushForce:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Apply Push Force
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 969f199d-45b3-490b-ba33-cdefca2776cd
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 4457027397802824957, guid: f01e84850a55da44187e8a31c2b04f76, type: 3}
+  ApplyPullForce:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Apply Pull Force
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 8c9defb8-7d80-442e-a251-42c40036ae35
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -3348373790040972912, guid: f01e84850a55da44187e8a31c2b04f76, type: 3}
+  ForceScreenPosition:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Force Screen Position
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 5351b4e5-f735-4021-aa6d-fce0948c1459
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1283409253846276680, guid: f01e84850a55da44187e8a31c2b04f76, type: 3}
+  maxForce: 10
+--- !u!114 &1121889153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121889147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b0400b198718a4a98941193a3f8a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SentienceLab.MovementController_InputSystem
+  ActionMoveX:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Action Move X
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 5ff12302-1ea5-44f8-aebe-0440a617e26d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 4280253100206782254, guid: f01e84850a55da44187e8a31c2b04f76, type: 3}
+  ActionMoveY:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Action Move Y
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 3227888e-9639-4525-9c8c-ca8a1c1f3787
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6434691309822397753, guid: f01e84850a55da44187e8a31c2b04f76, type: 3}
+  ActionMoveZ:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Action Move Z
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 3822a41e-9ba1-4247-bb7f-5f5d0061a2e4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1348698724659371019, guid: f01e84850a55da44187e8a31c2b04f76, type: 3}
+  TranslationSpeed: 10
+  TranslationSmoothing: 0.1
+  ActionRotateX:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Action Rotate X
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 2f3b418b-a0bb-4b34-9d9e-005f0bb05c86
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 5455996692769164059, guid: f01e84850a55da44187e8a31c2b04f76, type: 3}
+  ActionRotateY:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Action Rotate Y
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 929be78f-d691-4971-b520-69fd04011a80
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -7032173149391887527, guid: f01e84850a55da44187e8a31c2b04f76, type: 3}
+  RotationSpeed: 45
+  RotationSmoothing: 0.1
+  TranslationIgnoresPitch: 1
+  RotationBasisNode: {fileID: 0}
 --- !u!1 &1146233950
 GameObject:
   m_ObjectHideFlags: 0
