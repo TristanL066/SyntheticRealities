@@ -5,12 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - BowlingBall\
-  - BowlingPins
+  - RightBall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - BowlingPin
+  - 
   - Water
   - UI
   - 
