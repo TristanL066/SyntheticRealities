@@ -904,6 +904,8 @@ Transform:
   - {fileID: 896959906}
   - {fileID: 1451488207}
   - {fileID: 633843688}
+  - {fileID: 456926309}
+  - {fileID: 508119531}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &59709604
@@ -6182,9 +6184,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456926308}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -43.363, y: 1.1615, z: 5.0825}
-  m_LocalScale: {x: 1.0776246, y: 1.0776246, z: 1.0776246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.4994398, y: 0.26543775, z: 0.018379722}
+  m_LocalScale: {x: 0.3111836, y: 0.11065892, z: 0.309475}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6422629}
@@ -6192,7 +6194,7 @@ Transform:
   - {fileID: 2039140597}
   - {fileID: 953095057}
   - {fileID: 2023674655}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 48895670}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &461790968
 GameObject:
@@ -7024,15 +7026,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508119530}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.49406, y: 3.42065, z: -11.24457}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.0250006, y: 0.49742493, z: -4.6704698}
+  m_LocalScale: {x: 0.2887681, y: 0.10268782, z: 0.28718257}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 134789682}
   - {fileID: 1576996496}
   - {fileID: 1156293028}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 48895670}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &509539372
 GameObject:
@@ -11905,7 +11907,7 @@ GameObject:
   - component: {fileID: 953095056}
   - component: {fileID: 953095055}
   m_Layer: 0
-  m_Name: StrikeText
+  m_Name: STRIKEEEEEEE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17936,7 +17938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1367024501}
   m_Layer: 0
-  m_Name: 06_CameraSection
+  m_Name: 00_CameraSection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28236,11 +28238,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 1547605273}
   - {fileID: 48895670}
-  - {fileID: 456926309}
+  - {fileID: 1367024501}
   - {fileID: 246826890}
   - {fileID: 2011719698}
   - {fileID: 1607122601}
   - {fileID: 757516193}
   - {fileID: 2102435556}
-  - {fileID: 508119531}
-  - {fileID: 1367024501}
